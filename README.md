@@ -29,7 +29,7 @@ Este proyecto fue desarrollado como Trabajo Final Integrador de la materia Algor
 
 ## Descripción general del sistema 
 
-El sistema administra el funcionamiento de un estacionamiento a través de una aplicación de consola desarrollada en Python. Permite:
+El sistema gestiona el funcionamiento de un estacionamiento a través de una aplicación de consola desarrollada en Python. Permite:
 
 - Registrar el **ingreso** de vehículos, validando la patente ingresada y controlando que exista espacio disponible.
 - Registrar el **egreso** de vehículos, calculando automáticamente el tiempo de permanencia y el importe a pagar según una tarifa por hora.
@@ -70,7 +70,7 @@ trabajo-final-python-grupoC16Com3
 │
 ├── estacionamiento.py
 ├── README.md
-└── (archivos utilizados por el sistema)
+└── DOCUMENTACION.md
 ```
 
 ---
@@ -85,18 +85,18 @@ trabajo-final-python-grupoC16Com3
 
 1. Clonar o descargar este repositorio.
 2. Abrir una terminal y ubicarse en la carpeta del proyecto:
-   ```
+
    cd ruta/a/la/carpeta/del/proyecto
-   ```
+   
 3. Ejecutar el programa:
    - En Windows:
-     ```
+
      py estacionamiento.py
-     ```
+   
    - En Linux/Mac:
-     ```
+     
      python3 estacionamiento.py
-     ```
+     
 4. Utilizar el menú numérico que aparece en pantalla para interactuar con el sistema (ingresar vehículo, registrar egreso, ver estado, ver estadísticas, ver historial, salir).
 
 El archivo `historial_estacionamiento.txt` se genera automáticamente en la misma carpeta la primera vez que se registra un egreso. No es necesario crearlo manualmente.
