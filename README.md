@@ -23,9 +23,13 @@ Comisión 3
 
 ---
 
+## Presentación del Proyecto 
+
+Este proyecto fue desarrollado como Trabajo Final Integrador de la materia Algoritmos y Estructuras de Datos. El objetivo fue aplicar los contenidos vistos durante el cursado mediante la implementación de un sistema de gestión de estacionamiento utilizando Python.
+
 ## Descripción general del sistema 
 
-El sistema simula el funcionamiento de un estacionamiento a través de una aplicación de consola desarrollada en Python. Permite:
+El sistema administra el funcionamiento de un estacionamiento a través de una aplicación de consola desarrollada en Python. Permite:
 
 - Registrar el **ingreso** de vehículos, validando la patente ingresada y controlando que exista espacio disponible.
 - Registrar el **egreso** de vehículos, calculando automáticamente el tiempo de permanencia y el importe a pagar según una tarifa por hora.
@@ -102,7 +106,7 @@ El archivo `historial_estacionamiento.txt` se genera automáticamente en la mism
 
 ## Uso de Inteligencia Artificial
 
-Durante el desarrollo del proyecto se utilizó ChatGPT(OpenAI) y Claude(Anthropic) como herramienta de apoyo para:
+Durante el desarrollo del proyecto se utilizó ChatGPT (OpenAI) y Claude (Anthropic) como herramienta de apoyo para:
 
 - Resolver dudas relacionadas con la sintaxis de Python.
 - Analizar y corregir errores del código.
