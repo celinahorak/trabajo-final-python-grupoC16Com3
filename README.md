@@ -18,18 +18,22 @@ Comisión 3
 - Horak Celina 
 - Deydar Lautaro Agustin 
 - Ruiz Leiva Lourdes Soledad 
-- Nombre del Integrante 4
-- Nombre del integrabte 5
+- Torres Ocampo Franco 
+- Pared Priscila Siomara 
 
 ---
 
-## Descripción general del sistema
+## Descripción general del sistema 
 
-Este proyecto consiste en el desarrollo de un sistema de gestión de estacionamiento realizado en Python y ejecutado por consola.
+El sistema simula el funcionamiento de un estacionamiento a través de una aplicación de consola desarrollada en Python. Permite:
 
-El sistema permite administrar el ingreso y egreso de vehículos, calcular el tiempo de permanencia y el importe correspondiente, controlar la disponibilidad de espacios y generar estadísticas relacionadas con el funcionamiento del estacionamiento.
+- Registrar el **ingreso** de vehículos, validando la patente ingresada y controlando que exista espacio disponible.
+- Registrar el **egreso** de vehículos, calculando automáticamente el tiempo de permanencia y el importe a pagar según una tarifa por hora.
+- Consultar el **estado actual** del estacionamiento (espacios ocupados y disponibles, vehículos dentro).
+- Consultar **estadísticas** generales: cantidad de vehículos atendidos, tiempo promedio de permanencia y recaudación total.
+- Consultar el **historial completo** de movimientos.
 
-Además, incorpora validaciones de datos y mensajes de error para garantizar un funcionamiento correcto y una interacción clara con el usuario.
+Todos los movimientos de egreso se guardan en un archivo de texto (`historial_estacionamiento.txt`), que se lee automáticamente cada vez que se inicia el programa, de modo que la información persiste entre ejecuciones.
 
 ---
 
@@ -60,7 +64,7 @@ Además, incorpora validaciones de datos y mensajes de error para garantizar un 
 ```
 trabajo-final-python-grupoC16Com3
 │
-├── main.py
+├── estacionamiento.py
 ├── README.md
 └── (archivos utilizados por el sistema)
 ```
@@ -69,16 +73,36 @@ trabajo-final-python-grupoC16Com3
 
 ## Instrucciones de ejecución
 
-1. Descargar o clonar el repositorio.
-2. Abrir el proyecto en Visual Studio Code o cualquier editor compatible con Python.
-3. Ejecutar el archivo principal (`main.py`).
-4. Utilizar el menú para acceder a las distintas funcionalidades del sistema.
+### Requisitos
+
+- Python 3.8 o superior instalado (no requiere librerías externas ni instalación con `pip`).
+
+### Pasos
+
+1. Clonar o descargar este repositorio.
+2. Abrir una terminal y ubicarse en la carpeta del proyecto:
+   ```
+   cd ruta/a/la/carpeta/del/proyecto
+   ```
+3. Ejecutar el programa:
+   - En Windows:
+     ```
+     py estacionamiento.py
+     ```
+   - En Linux/Mac:
+     ```
+     python3 estacionamiento.py
+     ```
+4. Utilizar el menú numérico que aparece en pantalla para interactuar con el sistema (ingresar vehículo, registrar egreso, ver estado, ver estadísticas, ver historial, salir).
+
+El archivo `historial_estacionamiento.txt` se genera automáticamente en la misma carpeta la primera vez que se registra un egreso. No es necesario crearlo manualmente.
+
 
 ---
 
 ## Uso de Inteligencia Artificial
 
-Durante el desarrollo del proyecto se utilizó ChatGPT (OpenAI) como herramienta de apoyo para:
+Durante el desarrollo del proyecto se utilizó ChatGPT(OpenAI) y Claude(Anthropic) como herramienta de apoyo para:
 
 - Resolver dudas relacionadas con la sintaxis de Python.
 - Analizar y corregir errores del código.
@@ -90,13 +114,19 @@ Durante el desarrollo del proyecto se utilizó ChatGPT (OpenAI) como herramienta
 
 ## Repositorio GitHub
 
-(Agregar aquí el enlace del repositorio)
+https://github.com/celinahorak/trabajo-final-python-grupoC16Com3/edit/main/README.md
 
 ---
 
 ## Video de demostración
 
 (Agregar aquí el enlace al video de YouTube)
+
+---
+
+## Documentación técnica
+
+Ver el archivo [`DOCUMENTACION.md`](./DOCUMENTACION.md) para una explicación detallada del código, función por función.
 
 ---
 
