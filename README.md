@@ -17,7 +17,7 @@ Comisión 3
 
 - Horak Celina 
 - Deydar Lautaro Agustin 
-- Nombre del Integrante 3
+- Ruiz Leiva Lourdes Soledad 
 - Nombre del Integrante 4
 - Nombre del integrabte 5
 
@@ -48,7 +48,7 @@ Además, incorpora validaciones de datos y mensajes de error para garantizar un 
 
 ## Tecnologías utilizadas
 
-- Python 3
+- Python 3.8
 - Git
 - GitHub
 - Visual Studio Code
