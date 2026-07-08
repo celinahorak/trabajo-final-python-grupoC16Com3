@@ -118,7 +118,7 @@ Durante el desarrollo del proyecto se utilizó ChatGPT (OpenAI) y Claude (Anthro
 
 ## Repositorio GitHub
 
-https://github.com/celinahorak/trabajo-final-python-grupoC16Com3/edit/main/README.md
+https://github.com/celinahorak/trabajo-final-python-grupoC16Com3.git
 
 ---
 
