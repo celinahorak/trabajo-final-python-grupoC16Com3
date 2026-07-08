@@ -124,7 +124,7 @@ https://github.com/celinahorak/trabajo-final-python-grupoC16Com3.git
 
 ## Video de demostración
 
-(Agregar aquí el enlace al video de YouTube)
+https://youtu.be/Vyjsi4NDLXs
 
 ---
 
